@@ -1,8 +1,12 @@
 package br.com.alura.ScreenMatch.testes;
 
 import br.com.alura.ScreenMatch.calculos.CalculadoraDeTempo;
+import br.com.alura.ScreenMatch.calculos.FiltroRecomendacao;
+import br.com.alura.ScreenMatch.models.Episodio;
 import br.com.alura.ScreenMatch.models.Filme;
 import br.com.alura.ScreenMatch.models.Serie;
+
+import java.util.ArrayList;
 
 public class Main {
 
@@ -34,6 +38,34 @@ public class Main {
         calculadora.inclui(serie);
 
         System.out.println("Tempo total: " +calculadora.getTempoTotal());
+
+        filme1.exibirFichaTecnica();
+        filme1.avalia(10);
+        filme1.avalia(10);
+        filme1.avalia(10);
+        System.out.println(filme1.pegaMedia());
+        System.out.println(filme1.getTotalDeAvaliacoes());
+
+
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(favorito);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serie);
+        episodio.setTotalDeVisualizacoes(300);
+        filtro.filtra(episodio);
+
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme1);
+        listaDeFilmes.add(outro);
+        listaDeFilmes.add(favorito);
+
+        System.out.println(listaDeFilmes);
+        System.out.println(listaDeFilmes.contains(filme1));
+        System.out.println(listaDeFilmes.size());
+
     }
 
 }

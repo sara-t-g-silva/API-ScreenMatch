@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d25bee9c-2996-436d-a1ef-996c723d4b6c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Titulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/calculos/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/calculos/FiltroRecomendacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Episodio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Filme.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,6 +43,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -81,11 +85,19 @@
       <option name="project" value="LOCAL" />
       <updated>1682338533486</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="modelando classes e testando no método main">
+      <created>1682340653762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682340653762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="modelando classes e testando no método main" />
+    <option name="LAST_COMMIT_MESSAGE" value="modelando classes e testando no método main" />
   </component>
 </project>
