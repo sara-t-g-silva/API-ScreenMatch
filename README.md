@@ -11,7 +11,7 @@ alt="OMDB The Open Movie Database">
 
 é necessário atender aos seguintes requisitos:
 
-* API utilizada [OMDB](https://www.omdbapi.com/)
+* API utilizada [OMDb](https://www.omdbapi.com/)
 
 
 * Frameworks e linguagens necessárias 
