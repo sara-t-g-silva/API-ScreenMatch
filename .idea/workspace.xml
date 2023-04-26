@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d25bee9c-2996-436d-a1ef-996c723d4b6c" name="Changes" comment="criando conexão com API OMDb">
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/BuscaOMDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/buscarTeste.java" afterDir="false" />
+    <list default="true" id="d25bee9c-2996-436d-a1ef-996c723d4b6c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/TituloOmdb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScreenMatch-API-Filmes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ScreenMatch-API-Filmes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Titulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/models/Titulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/BuscaOMDB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/ScreenMatch/testes/BuscaOMDB.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Record" />
       </list>
     </option>
   </component>
@@ -34,16 +37,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/gson-2.10.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.BuscaOMDB">
     <configuration name="BuscaOMDB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.alura.ScreenMatch.testes.BuscaOMDB" />
@@ -108,13 +112,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682347715471</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="criando conexão com API OMDb e gerando mais interatividade na BuscaOMDB">
+      <created>1682429905877</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682429905877</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="modelando classes e testando no método main" />
     <MESSAGE value="criando interface, metódos e nova classe de TestesArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="criando interface, metódos e nova classe de TestesArray" />
+    <MESSAGE value="criando conexão com API OMDb e gerando mais interatividade na BuscaOMDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="criando conexão com API OMDb e gerando mais interatividade na BuscaOMDB" />
   </component>
 </project>

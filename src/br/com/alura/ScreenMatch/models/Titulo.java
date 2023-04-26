@@ -13,6 +13,14 @@ public class Titulo implements Comparable<Titulo> {
         this.anoDoLancamento = anoDoLancamento;
     }
 
+    public Titulo(TituloOmdb meuTituloOmdb) {
+        this.nome = meuTituloOmdb.title();
+        this.anoDoLancamento = Integer.valueOf(meuTituloOmdb.year());
+        this.duracaoEmMinutos = Integer.valueOf(meuTituloOmdb.runtime().substring(0, 2)); // necessário converter e pegar uma parte da String
+
+
+    }
+
     public String getNome() {
         return nome;
     }
